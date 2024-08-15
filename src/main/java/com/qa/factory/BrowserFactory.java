@@ -20,7 +20,7 @@ public class BrowserFactory {
         }
 
         if(browserName.equalsIgnoreCase("firefox")) {
-            WebDriverManager.firefoxdriver().create();
+            WebDriverManager.firefoxdriver().setup();
             tlDrivers.set(new FirefoxDriver());
         }
 
